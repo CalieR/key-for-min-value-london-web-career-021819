@@ -15,3 +15,7 @@ def key_for_min_value(name_hash)
   end
   name_of_smallest
 end
+
+
+#Another user posted the exact problem I was having here....
+#https://github.com/learn-co-curriculum/key-for-min-value/commit/5ef8507158fa6d6a1b8499b494bc9d418c8d055c
