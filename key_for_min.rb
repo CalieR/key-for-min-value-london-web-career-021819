@@ -9,6 +9,7 @@ def key_for_min_value(name_hash)
     if price_of_smallest == nil || price < price_of_smallest
       #price_of_smallest is == nil on first iteration.  Gives something to compare to on subsequent iterations
       price_of_smallest = price
+      # if current iteration has smaller value, replace value and item name...
       name_of_smallest = item
     end
   end
